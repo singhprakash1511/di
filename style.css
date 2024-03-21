@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top, .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.top{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.color>p{
+    margin: 10px  auto;
+    width: 50%;
+}
+
+.top>.color{
+    margin: 10px;
+}
+
+.bottom>button{
+    margin: 10px;
+}
+
+.color, input, select, button{
+    width: 98%;
+    margin: 2px;
+    padding: 6px;
+}
+
+input{
+    border: none;
+}
+
+.canvas{
+    border: 2px solid black;
+}
+
+.btn{
+    padding: 7px 10px 7px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-clear{
+    background-color: #c63838;
+    color: white;
+}
+
+.btn-save{
+    background-color: rgb(60, 147, 60);
+    color: white;
+}
+
+.btn-retrieve{
+    background-color: #fcc603;
+    color: black;
+}
